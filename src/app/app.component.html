@@ -1,0 +1,144 @@
+<div class="section">
+
+    <app-header></app-header>
+    <div class="middleline"><p class="centerline">ಸಾಲಕ್ಕಾಗಿ ಅರ್ಜಿ ಸಲ್ಲಿಸುತ್ತಿರುವವರ ಮತ್ತು ಜಾಮೀನುದಾರರ ಮಾಹಿತಿ ಪತ್ರ</p>
+    </div>
+
+    <form [formGroup]="form">
+        <div class="componentclass">
+            <span>
+                <div style="display: flex; justify-content: flex-start;"><p>ಇವರಿಗೆ,</p> <br></div>
+               <p>ಮುಖ್ಯ ಕಾರ್ಯನಿರ್ವಾಹಕರು</p>
+            </span>
+            <app-place formControlName="Place"></app-place>
+        </div>
+    
+        <div class="componentclass" style="margin-top: 0px;">
+            <p>ಆಕ್ಸ್‌ಫರ್ಡ್ ಸೌಹಾರ್ದ ಸಹಕಾರಿ ಸಂಘ ನಿಯಮಿತ, ಸಿಂಧನೂರು</p>
+            <app-date formControlName="Date"></app-date>
+         </div> 
+    
+         <div class="componentclass" >
+            <P></P>
+            <app-membership-number formControlName="MembershipNumber"></app-membership-number>
+         </div>
+         <div class="componentclass" >
+            <P></P>
+            <app-customer-number formControlName="CustomerNumber"></app-customer-number>
+         </div>
+         <div class="componentclass" >
+            <P></P>
+            <app-loan-account-number formControlName="LoanAccountNumber"></app-loan-account-number>
+         </div>
+         <div class="componentclass" >
+            <P></P>
+            <app-saving-account-number formControlName="SavingAccountNumber"></app-saving-account-number>
+         </div>
+        <div class="borrower" >
+            <app-borrower-name style="flex: 1;" formControlName="BorrowerName"></app-borrower-name>
+            <app-borrower-parentname style="flex: 1;" formControlName="BorrowerParentname"></app-borrower-parentname>
+        </div>
+         <div class="ageandoccupation">
+            <app-borrower-age style="flex: 1;" formControlName="BorrowerAge"></app-borrower-age>
+            <app-occupation style="flex: 1;" formControlName="Occupation"></app-occupation>
+            <app-borrower-adhar-number style="flex: 1;" formControlName="BorrowerAdhar"></app-borrower-adhar-number>
+         </div>
+    
+         <div class="pan">
+            <app-pancard-number style="flex: 1;" formControlName="PancardNumber"></app-pancard-number>
+            <app-nominee style="flex: 1;" formControlName="Nominee"></app-nominee>
+            <app-loan-purpose style="flex: 1;" formControlName="LoanPurpose"></app-loan-purpose>
+         </div>
+         <div class="address">
+            <app-borrower-address style="flex: 1;" formControlName="BorrowerResidentialAddress"></app-borrower-address>
+         </div>
+         <div class="officeaddress">
+            <app-borrower-office-address style="flex: 1;" formControlName="BorrowerOfficeAddress"></app-borrower-office-address>
+         </div>
+         <div class="annualdetails">
+            <app-borrower-mobile-number style="flex: 1;" formControlName="BorrowerContact"></app-borrower-mobile-number>
+            <app-annualincome style="flex: 1;" formControlName="Annualincome"></app-annualincome>
+            <app-annual-expenditure style="flex: 1;" formControlName="AnnualExpenditure"></app-annual-expenditure>
+         </div>
+         <div class="amountdetails">
+            <app-loan-amount style="flex: 1;" formControlName="LoanAmount"></app-loan-amount>
+            <app-loan-amount-in-letters style="flex: 3;" formControlName="LoanAmountInLetters"></app-loan-amount-in-letters>
+         </div>
+         <div class="interest">
+            <app-interest-rate style="flex: 1;" formControlName="InterestRate"></app-interest-rate>
+            <app-over-due-interestrate style="flex: 1;" formControlName="OverDueInterestrate"></app-over-due-interestrate>
+         </div>
+         <div class="modeofloan">
+            <app-modeof-emi style="flex: 2.5;" formControlName="ModeofEMI"></app-modeof-emi>
+            <app-security-for-loan style="flex: 3;" formControlName="SecurityForLoan"></app-security-for-loan>
+         </div>
+         <div class="taxandlic">
+            <app-tax-details style="flex: 1;" formControlName="TaxDetails"></app-tax-details>
+            <app-lic-details style="flex: 1;" formControlName="LicDetails"></app-lic-details>
+         </div>
+         <div class="otherbank">
+            <app-otherbank-details style="flex: 1;" formControlName="OtherbankDetails"></app-otherbank-details>
+            <app-caste-and-religion style="flex: 1;" formControlName="CasteAndReligion"></app-caste-and-religion>
+         </div>
+         <div class="otherloans">
+            <app-other-loan-details style="flex: 1;" formControlName="OtherLoanDetails"></app-other-loan-details>
+         </div>
+         <div class="pendingloans">
+            <app-pending-loans-details style="flex: 1;"formControlName="PendingLoansDetails"></app-pending-loans-details>
+         </div>
+         <div class="shareamount">
+            <app-share-amount style="flex: 1;" formControlName="ShareAmount"></app-share-amount>   
+         </div>
+         <div class="controlledloan">
+            <app-controlled-loan style="flex: 1;" formControlName="ControlledLoan"></app-controlled-loan>
+         </div>
+         <div class="gb">
+            <app-gb style="flex: 1;" formControlName="Gb"></app-gb>
+         </div>
+         <div class="firstsuretyholder">
+            <app-fsh-name style="flex: 1;" formControlName="FirstSuretyHolderName"></app-fsh-name>
+            <app-fsh-parent style="flex: 1;" formControlName="FirstSuretyHolderParentname"></app-fsh-parent>
+         </div>
+         <div class="fshadhar">
+            <app-fsh-adhar style="flex: 1;" formControlName="FirstSuretyHolderAdha"></app-fsh-adhar>
+            <app-fsh-mobile-number style="flex: 1;" formControlName="FirstSuretyHolderContact"></app-fsh-mobile-number>
+         </div>
+         <div class="fshresidentialaddress">
+            <app-fsh-place style="flex: 1;" formControlName="FirstSuretyHolderResidentialAddress"></app-fsh-place>
+            
+         </div>
+         <div class="fshofficeaddress">
+            <app-fsh-address style="flex: 1;" formControlName="FirstSuretyHolderOfficeAddress"></app-fsh-address>
+         </div>
+         <div class="fshotherbankloan">
+            <app-fsh-otherbank-details style="flex: 1;" formControlName="FirstSuretyHolderOtherBankdetails"></app-fsh-otherbank-details>
+         </div>
+    
+         <div class="secondsuretyholder">
+            <app-ssh-name style="flex: 1;" formControlName="SecondSuretyHolderName"></app-ssh-name>
+            <app-ssh-parent style="flex: 1;" formControlName="SecondSuretyHolderParentname"></app-ssh-parent>
+         </div>
+         <div class="sshadhar">
+            <app-ssh-adhar style="flex: 1;" formControlName="SecondSuretyHolderAdha"></app-ssh-adhar>
+            <app-ssh-mobile-number style="flex: 1;" formControlName="SecondSuretyHolderContact"></app-ssh-mobile-number>
+         </div>
+         <div class="sshresidentialaddress">
+            <app-ssh-place style="flex: 1;" formControlName="SecondSuretyHolderResidentialAddress"></app-ssh-place>
+            
+         </div>
+         <div class="sshofficeaddress">
+            <app-ssh-address style="flex: 1;" formControlName="SecondSuretyHolderOfficeAddress"></app-ssh-address>
+         </div>
+         <div class="sshotherbankloan">
+            <app-ssh-otherbank-details style="flex: 1;" formControlName="SecondSuretyHolderOtherBankdetails"></app-ssh-otherbank-details>
+         </div>
+         <div class="newgrp">
+            <app-borrower-bloodgroup style="flex: 1;" formControlName="BorrowerBloodgroup"></app-borrower-bloodgroup>
+            <app-fsh-relation-with-borrower style="flex: 1;" formControlName="FirstSuretyHolderRelationWithBorrower"></app-fsh-relation-with-borrower>
+            <app-ssh-relation-with-borrower style="flex: 1;" formControlName="SecondSuretyHolderRelationWithBorrower"></app-ssh-relation-with-borrower>
+         </div>
+     
+    </form>
+   
+</div> 
+

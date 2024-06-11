@@ -1,0 +1,6 @@
+.pancard{
+    display: flex;
+}
+input{
+    flex: 1;
+}

@@ -1,0 +1,9 @@
+input{
+    border: none;
+    border-bottom: 1px dotted black;
+    outline: none;
+}
+
+.membership-no{
+    margin-top: -20px;
+}

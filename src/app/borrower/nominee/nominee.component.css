@@ -1,0 +1,6 @@
+.nominee{
+    display: flex;
+}
+input{
+    flex: 1;
+}

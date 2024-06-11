@@ -1,0 +1,8 @@
+.loanaccountnumber{
+    display: flex;
+}
+input{
+    border: none;
+    border-bottom: 1px dotted black;
+    outline: none;
+}

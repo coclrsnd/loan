@@ -1,0 +1,6 @@
+.loanpurpose{
+    display: flex;
+}
+input{
+    flex: 1;
+}

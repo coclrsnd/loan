@@ -1,0 +1,43 @@
+.section{
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+.middleline{
+    margin-bottom: 20px;
+}
+.componentclass{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.centerline{
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.componentclass p{
+    margin-bottom: 5px;
+}
+
+.borrower > div {
+    padding: 0;
+    margin: 0;
+}
+
+.borrower{
+   
+    display: flex; 
+    margin-top: 35px;
+
+}
+.ageandoccupation, .pan, .address, .officeaddress, .annualdetails, .amountdetails, .interest, .modeofloan, .taxandlic, .otherbank,
+.otherloans, .pendingloans, .shareamount, .controlledloan, .gb, .firstsuretyholder, .fshadhar, .fshresidentialaddress, 
+.fshofficeaddress, .fshotherbankloan, .secondsuretyholder, .sshadhar, .sshresidentialaddress, 
+.sshofficeaddress, .sshotherbankloan, .newgrp{
+    display: flex;
+    margin-top: 15px;
+}
