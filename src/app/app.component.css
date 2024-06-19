@@ -37,7 +37,8 @@
 .ageandoccupation, .pan, .address, .officeaddress, .annualdetails, .amountdetails, .interest, .modeofloan, .taxandlic, .otherbank,
 .otherloans, .pendingloans, .shareamount, .controlledloan, .gb, .firstsuretyholder, .fshadhar, .fshresidentialaddress, 
 .fshofficeaddress, .fshotherbankloan, .secondsuretyholder, .sshadhar, .sshresidentialaddress, 
-.sshofficeaddress, .sshotherbankloan, .newgrp{
+.sshofficeaddress, .sshotherbankloan, .amountinletters, .fshrelation, .sshrelation{
     display: flex;
     margin-top: 15px;
+    flex:1;
 }
